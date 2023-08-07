@@ -1,10 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-string hoten = "Nguyen Trung Kien"; //khai báo  biển kiểu string và gán giá trị bằng Nguyễn Trung Kiên
-int tuoi = 35; //khai báo biển kiểu integer và gán giá trị tuổi bằng = 35
-Console.Write("Sinh vien {0} - {1} tuoi", hoten, tuoi);
-
-
-   
-
-
+﻿using System.Security.AccessControl;
+internal class Program 
+{
+    private static void Main(string[] args)
+    {
+        string str = "123"; // giá trị đầu vào để chuyển đổi
+        int ketqua; // biến lưu kết quả sau chuyển đổi
+        bool kiemtra = false // biến kiểm tra chuyển đổi có thành công không
+        kiemtra = int.TryParse(str,out(ketqua));
+        SystemAcl.Console.WriteLine("Ket Qua = " + ketqua);
+    }
+}
