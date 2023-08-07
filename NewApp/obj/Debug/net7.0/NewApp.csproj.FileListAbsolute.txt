@@ -1,0 +1,15 @@
+D:\Vicem\Net_Core_API\NewApp\bin\Debug\net7.0\NewApp.exe
+D:\Vicem\Net_Core_API\NewApp\bin\Debug\net7.0\NewApp.deps.json
+D:\Vicem\Net_Core_API\NewApp\bin\Debug\net7.0\NewApp.runtimeconfig.json
+D:\Vicem\Net_Core_API\NewApp\bin\Debug\net7.0\NewApp.dll
+D:\Vicem\Net_Core_API\NewApp\bin\Debug\net7.0\NewApp.pdb
+D:\Vicem\Net_Core_API\NewApp\obj\Debug\net7.0\NewApp.csproj.AssemblyReference.cache
+D:\Vicem\Net_Core_API\NewApp\obj\Debug\net7.0\NewApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vicem\Net_Core_API\NewApp\obj\Debug\net7.0\NewApp.AssemblyInfoInputs.cache
+D:\Vicem\Net_Core_API\NewApp\obj\Debug\net7.0\NewApp.AssemblyInfo.cs
+D:\Vicem\Net_Core_API\NewApp\obj\Debug\net7.0\NewApp.csproj.CoreCompileInputs.cache
+D:\Vicem\Net_Core_API\NewApp\obj\Debug\net7.0\NewApp.dll
+D:\Vicem\Net_Core_API\NewApp\obj\Debug\net7.0\refint\NewApp.dll
+D:\Vicem\Net_Core_API\NewApp\obj\Debug\net7.0\NewApp.pdb
+D:\Vicem\Net_Core_API\NewApp\obj\Debug\net7.0\NewApp.genruntimeconfig.cache
+D:\Vicem\Net_Core_API\NewApp\obj\Debug\net7.0\ref\NewApp.dll
