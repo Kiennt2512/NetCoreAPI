@@ -1,4 +1,3 @@
-using System;
 using NewApp.Models;
 namespace NewApp.Models
 {
