@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="W3.css">
+    <link rel="stylesheet" href="TableStyle.css">
+    <script src="Table.js"></script>
+    <script src="W3.js"></script>
+    <title>Document</title>
+</head>
+
+<body class="w3-container">
+    <h1>Table search</h1>
+    <hr>
+    <div class="w3-row">
+        <input class="w3-input w3-col l3 w3-margin-right w3-border w3-round" type="text" placeholder="Customer name">
+        <input class="w3-input w3-col l3 w3-margin-right w3-border w3-round" type="text" placeholder="City">
+        <input class="w3-input w3-col l3 w3-margin-right w3-border w3-round" type="text" placeholder="Country">
+        <input type="button" class="w3-button w3-round w3-border w3-border-blue" onclick="AddNewRow()" value="Add new row">
+    </div>
+    <p>
+        <input oninput="w3.filterHTML('#id01', '.item', this.value)" placeholder="Search for names..">
+    </p>
+
+    <table id="id01" border="1" class="w3-table">
+        <tr>
+            <th>Customer</th>
+            <th>City</th>
+            <th>Country</th>
+        </tr>
+        <tr class="item">
+            <td>Alfreds Futterkiste</td>
+            <td>Berlin</td>
+            <td>Germany</td>
+        </tr>
+        <tr class="item">
+            <td>Berglunds snabbköp</td>
+            <td>Lule </td>
+            <td>Sweden</td>
+        </tr>
+        <tr class="item">
+            <td>Centro comercial Moctezuma</td>
+            <td>México D.F.</td>
+            <td>Mexico</td>
+        </tr>
+        <tr class="item">
+            <td>Ernst Handel</td>
+            <td>Graz</td>
+            <td>Austria</td>
+        </tr>
+        <tr class="item">
+            <td>FISSA Fabrica Inter. Salchichas S.A.</td>
+            <td>Madrid</td>
+            <td>Spain</td>
+        </tr>
+        <tr class="item">
+            <td>Galería del gastrónomo</td>
+            <td>Barcelona</td>
+            <td>Spain</td>
+        </tr>
+        <tr class="item">
+            <td>Island Trading</td>
+            <td>Cowes</td>
+            <td>UK</td>
+        </tr>
+        <tr class="item">
+            <td>Königlich Essen</td>
+            <td>Brandenburg</td>
+            <td>Germany</td>
+        </tr>
+        <tr class="item">
+            <td>Laughing Bacchus Wine Cellars</td>
+            <td>Vancouver</td>
+            <td>Canada</td>
+        </tr>
+        <tr class="item">
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Bergamo</td>
+            <td>Italy</td>
+        </tr>
+        <tr class="item">
+            <td>North/South</td>
+            <td>London</td>
+            <td>UK</td>
+        </tr>
+        <tr class="item">
+            <td>Paris spécialités</td>
+            <td>Paris</td>
+            <td>France</td>
+        </tr>
+        <tr class="item">
+            <td>Rattlesnake Canyon Grocery</td>
+            <td>Albuquerque</td>
+            <td>USA</td>
+        </tr>
+        <tr class="item">
+            <td>Simons bistro</td>
+            <td>København</td>
+            <td>Denmark</td>
+        </tr>
+        <tr class="item">
+            <td>The Big Cheese</td>
+            <td>Portland</td>
+            <td>USA</td>
+        </tr>
+        <tr class="item">
+            <td>Vaffeljernet</td>
+            <td>Århus</td>
+            <td>Denmark</td>
+        </tr>
+        <tr class="item">
+            <td>Wolski Zajazd</td>
+            <td>Warszawa</td>
+            <td>Poland</td>
+        </tr>
+    </table>
+</body>
+
+</html>

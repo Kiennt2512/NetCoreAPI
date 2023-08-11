@@ -1,26 +1,42 @@
-using NewApp.Models;
+using System.Collections;
+
 namespace NewApp.Models
 {
     public class Person
     {
         //khai bao cac thuoc tinh
-        public string hoten {get; set;}
-        public string diachi {get; set;}
-        public int tuoi  {get; set;} 
-        //khai bao cac phuong thuc
-        public void nhapdulieu()
+        public string HoTen { get; set; }
+        public string DiaChi { get; set;}
+        public int NamSinh { get; set; }
+        //xay dung cac phuong thuc
+        //Phuong thuc Nhap thong tin nhan vien
+        public void NhapThongTin()
         {
-            System.Console.WriteLine("Ho ten =");
-            hoten = Console.ReadLine();
-            System.Console.WriteLine("Dia chi =");
-            diachi = Console.ReadLine();
-            System.Console.Write("Tuoi = ");      
-            tuoi = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ho ten = ");
+            HoTen = Console.ReadLine();
+            Console.WriteLine("Dia chi = ");
+            DiaChi = Console.ReadLine();
+            Console.WriteLine("Nam Sinh = ");
+            NamSinh = Convert.ToInt16(Console.ReadLine());
         }
-        public void hienthi()
+        public void HienThi()
         {
-            System.Console.WriteLine("{0} - {1} - {2} tuoi",hoten, diachi, tuoi);
+            Console.Write("Công dân: " + HoTen);
+            Console.Write(" - Sinh năm " + NamSinh);
+            Console.Write(" - Quê quán " + DiaChi);
         }
-
+        public void Add(ArrayList psList)
+        {
+            Person ps = new Person();
+            ps.NhapThongTin();
+            psList.Add(ps);
+        }
+        public void DisPlay(ArrayList psList)
+        {
+            foreach (Person p in psList)
+            {
+                p.HienThi();
+            }
+        }
     }
 }
